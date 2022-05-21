@@ -2,7 +2,7 @@
 <div class="mx-auto pb-5 pt-4  px-10 bg-primary text-quaternary font-body font-normal">
 <h1 class="text-blue-400 text-xl text-quaternary font-bold uppercase pb-4">Post ETH merge GPU profitability calculator (in fiat)</h1>
 <p class="">Non ETH and ETC GPU minable coins (comma-separated):
-    <br><textarea  class="bg-secondary rounded-lg w-96 h-24 text-justify " v-model="CoinInput" placeholder="Example: RVN,ERG,FIRO"></textarea></p>
+    <br><textarea  class="bg-secondary rounded-lg w-80 h-24 text-justify " v-model="CoinInput" placeholder="Example: RVN,ERG,FIRO"></textarea></p>
 <p class="text-xs font-light">**default coins: "SERO,CTXC,ERG,RVN,CFX,LOG,FIRO,BTG,AE,BEAM,ZCL,QKC,FLUX"</p>
 <button class="mt-5 p-3 bg-secondary rounded-lg hover:bg-tertiary hover:text-secondary" @click="FetchReward()">Calculate</button>
 </div>
